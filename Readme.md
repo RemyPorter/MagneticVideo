@@ -6,5 +6,5 @@ At the same time, a bunch of tone generators are watching those slashes, changin
 The results can be a little odd, but interesting.
 
 ## Screen Shots:
-<img src="screen-0024.tif" />
-<img src="screen-0413.tif" />
+<img src="screen-0024.jpg" />
+<img src="screen-0413.jpg" />
