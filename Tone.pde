@@ -9,6 +9,10 @@ class Tone {
     this.sound = sound;
     this.base = BASE_FREQ;
   }
+  //this voting function makes it easy to "unroll the loop", to minimize the total 
+  //number of iterations.
+  //Specifically, each Cell that this watches adds its deflection using this vote function.
+  //When everybody has voted, the tone calculates the average and updates its state.
   public void vote(float deflection) {
     votes += deflection;
     voted++;
